@@ -1,0 +1,11 @@
+[package]
+name = "_dns_request"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pnet = "0.34.0"
+dns-parser = "0.8.0"
+pnet_datalink = "0.34.0"
+pnet_packet = "0.34.0"
+pnet_transport = "0.34.0"
